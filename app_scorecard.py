@@ -30,7 +30,7 @@ st.markdown("""
 
 st.image(
     "https://raw.githubusercontent.com/majoocharteKellanova/costco-scorecard/main/assets/costco-header.png",
-    width=160
+    width=450
 )
 
 st.markdown(
