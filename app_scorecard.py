@@ -11,10 +11,27 @@ meses = {
     5: "Mayo", 6: "Junio", 7: "Julio", 8: "Agosto",
     9: "Septiembre", 10: "Octubre", 11: "Noviembre", 12: "Diciembre" }
 
-# # st.image(
-# "link-git.png",
-# width=160
-# )
+# formatito
+# region
+st.markdown("""
+<style>
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://raw.githubusercontent.com/majoocharteKellanova/oc-to-transit/main/assets/gilroy-medium.ttf');
+}
+            
+/* fuente global */
+*, div, span, section, button, label, input, textarea, h1, h2, h3, p {
+    font-family: 'Gilroy', sans-serif !important;
+}
+</style>
+""", unsafe_allow_html=True)
+# endregion
+
+st.image(
+    "https://raw.githubusercontent.com/majoocharteKellanova/costco-scorecard/main/assets/costco-header.png",
+    width=160
+)
 
 st.markdown(
 "COSTCO SCORECARD",
