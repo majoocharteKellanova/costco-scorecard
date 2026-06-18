@@ -30,6 +30,18 @@ html, body, [data-testid="stAppViewContainer"] {
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
     color-scheme: light;
 }
+
+/* título */
+h1, h1 span, [data-testid="stMarkdownContainer"] h1 {
+    color: #000000 !important; 
+    text-align: center; 
+    font-family: Gilroy, sans-serif; 
+    font-weight: 10000 !important;
+    font-size: 3rem; 
+    line-height: 1.2;
+    margin-bottom: 20px;'>
+}
+
 </style>
 """, unsafe_allow_html=True)
 # endregion
@@ -40,7 +52,7 @@ st.image(
 )
 
 st.markdown(
-"COSTCO SCORECARD",
+"COSTCO SCORECARD", <h1>
 unsafe_allow_html=True
 )
 
