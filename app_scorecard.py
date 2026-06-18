@@ -24,13 +24,19 @@ st.markdown("""
 *, div, span, section, button, label, input, textarea, h1, h2, h3, p {
     font-family: 'Gilroy', sans-serif !important;
 }
+
+/* fondo blanco */
+html, body, [data-testid="stAppViewContainer"] {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+    color-scheme: light;
+}
 </style>
 """, unsafe_allow_html=True)
 # endregion
 
 st.image(
     "https://raw.githubusercontent.com/majoocharteKellanova/costco-scorecard/main/assets/costco-header.png",
-    width=450
+    width=750
 )
 
 st.markdown(
