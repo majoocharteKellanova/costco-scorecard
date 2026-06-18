@@ -1,3 +1,4 @@
+
 # importar librerías básicas
 import pandas as pd
 import streamlit as st
@@ -25,10 +26,9 @@ info = st.file_uploader("sube aquí la información de inventarios", type=["csv"
 
 # ponemos la condicional del archivo para seguir el proceso
 if info: # una lista vacía se considera False y una con elementos True (recorderis)
-  df = pd.read_csv(info, skiprows=2)
+    df = pd.read_csv(info, skiprows=2)
     # preview del dataframe
     st.markdown("inventarios semanal", unsafe_allow_html=True)
     st.dataframe(df.head())
 else:
     st.info("carga un archivo para comenzar")
-
