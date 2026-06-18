@@ -52,7 +52,7 @@ st.image(
 )
 
 st.markdown(
-"COSTCO SCORECARD", <h1>
+"COSTCO SCORECARD",
 unsafe_allow_html=True
 )
 
