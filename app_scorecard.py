@@ -27,8 +27,8 @@ info = st.file_uploader("sube aquí la información de inventarios", type=["csv"
 if info: # una lista vacía se considera False y una con elementos True (recorderis)
   df = pd.read_csv(info, skiprows=2)
 
-# preview del dataframe
-st.markdown("inventarios semanal", unsafe_allow_html=True)
-st.dataframe(df.head())
+    # preview del dataframe
+    st.markdown("inventarios semanal", unsafe_allow_html=True)
+    st.dataframe(df.head())
 
   
