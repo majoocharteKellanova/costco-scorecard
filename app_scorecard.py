@@ -61,7 +61,7 @@ st.markdown(
     )
 
 # botón y variable para guardar el archivo
-info = st.file_uploader("sube aquí la información de inventarios", type=["csv"], accept_multiple_files=False)
+info = st.file_uploader(" <h2 style='font-weight: 10000;'>sube aquí la información de inventarios </h2>", type=["csv"], accept_multiple_files=False)
 
 # ponemos la condicional del archivo para seguir el proceso
 if info: # una lista vacía se considera False y una con elementos True (recorderis)
