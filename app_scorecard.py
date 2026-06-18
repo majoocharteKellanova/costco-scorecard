@@ -52,9 +52,13 @@ st.image(
 )
 
 st.markdown(
-"COSTCO SCORECARD",
-unsafe_allow_html=True
-)
+    """
+    <h1 style='text-align: center; font-size: 2.9rem; font-weight: 10000;'>
+    COSTCO SCORECARD
+    </h1>
+    """,
+    unsafe_allow_html=True
+    )
 
 # botón y variable para guardar el archivo
 info = st.file_uploader("sube aquí la información de inventarios", type=["csv"], accept_multiple_files=False)
